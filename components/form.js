@@ -29,7 +29,7 @@ export default function ContributeForm({ timeline }){
 
             <label htmlFor='subcategory'>Subcategory </label>
             <select multiple name="subcategory" placeholder="Subcategory">
-                <SubCategories timeline={timeline} category={selectedCategory}/>
+                <ContributeSubCategories timeline={timeline} category={selectedCategory}/>
             </select>
         </form>
     )
